@@ -1,0 +1,101 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Light grey background */
+    background-image: url('his.jpeg'); /* Background image */
+    background-size: cover;
+    background-position: center;
+    color: #333; /* Default text color */
+}
+
+header {
+    background-color: #545764; 
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em; /* Larger font size */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em; /* Larger font size for navigation links */
+    transition: all 0.3s ease; /* Smooth transition on hover */
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Section Styling */
+section {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+section h2 {
+    font-size: 2.2em; /* Larger font size for section headings */
+    color: #49545a; /* Blue color for section heading */
+    text-align: center;
+    margin-bottom: 20px; /* Space below the section heading */
+}
+
+/* Historical Places Styling */
+.historical-place {
+    background-color: #ffffff31;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+.historical-place h3 {
+    font-size: 1.8em; /* Larger font size for place names */
+    color: #4b4e59; /* Blue color for place names */
+    margin-bottom: 10px;
+}
+
+.historical-place p {
+    font-size: 1.1em; /* Font size for place descriptions */
+    line-height: 1.4;
+}
+
+/* Footer Styling */
+footer {
+    color: white;
+    background-color: #292525; /* Dark footer background */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}

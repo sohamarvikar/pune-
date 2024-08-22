@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9; /* Soft grey background */
+    background-image: url('tra.png'); /* Background image for the entire page */
+    background-size: cover;
+    background-position: center;
+    color: #333333; /* Default text color */
+}
+
+header {
+    background-color: #29252586; /* Dark blue header */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Shadow for header */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.8em; /* Larger font size */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Text shadow for emphasis */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.4em; /* Larger font size for navigation links */
+    transition: all 0.3s ease; /* Smooth transition on hover */
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+section#transport-options {
+    margin-top: 20px; /* Add space above the section */
+    background-color: rgba(112, 111, 111, 0.4); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+section#transport-options h2 {
+    font-size: 2.5em; /* Larger font size for section headings */
+    color: #314ece; /* Blue color for section heading */
+    text-align: center;
+    margin-bottom: 20px; /* Space below the section heading */
+}
+
+section#transport-options ul {
+    list-style-type: disc; /* Use bullet points for list items */
+    padding-left: 20px; /* Indent list items */
+}
+
+section#transport-options ul li {
+    font-size: 1.3em; /* Larger font size for list items */
+    margin-bottom: 10px; /* Space between list items */
+    color: #dadada; /* Dark grey color for list items */
+}
+
+footer {
+    color: white;
+    background-color: #292525b4; /* Dark footer background */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.4em; /* Adjust font size for smaller screens */
+    }
+    
+    nav ul li {
+        margin-right: 10px; /* Reduce margin between navigation links */
+    }
+    
+    nav ul li a {
+        font-size: 1.2em; /* Adjust font size for smaller screens */
+    }
+    
+    main {
+        padding: 10px; /* Reduce padding in main content area */
+    }
+    
+    section#transport-options h2 {
+        font-size: 2em; /* Adjust font size for smaller screens */
+    }
+    
+    section#transport-options ul li {
+        font-size: 1.1em; /* Adjust font size for smaller screens */
+    }
+}

@@ -1,0 +1,77 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9; /* Soft grey background */
+}
+
+header {
+    background-color: #333; /* Dark blue header */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Shadow for header */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em; /* Larger font size */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Text shadow for emphasis */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em; /* Larger font size for navigation links */
+    transition: all 0.3s ease; /* Smooth transition on hover */
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    color: white;
+    background-color: #29252578; /* Dark footer background */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em; /* Adjust font size for smaller screens */
+    }
+    
+    nav ul li {
+        margin-right: 10px; /* Reduce margin between navigation links */
+    }
+    
+    nav ul li a {
+        font-size: 1em; /* Adjust font size for smaller screens */
+    }
+    
+    main {
+        padding: 10px; /* Reduce padding in main content area */
+    }
+}
